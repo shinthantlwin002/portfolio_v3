@@ -70,7 +70,7 @@ export const Services = [
     id: 1,
     title: "Fullstack development",
     description:
-      "I create mobile-friendly websites, use Git for version control, and connect Fullstack to backend via API integration",
+      "I create mobile-friendly websites, use Git for version control, and connect Frontend to backend via API integration",
     img: "/icons/codepen.svg",
     serviceLists: [
       "Mobile responsive design",
@@ -117,6 +117,14 @@ export const skills = {
     {
       title: "React",
       percentage: "90",
+    },
+    {
+      title: "PHP",
+      percentage: "80",
+    },
+    {
+      title: "Laravel",
+      percentage: "60",
     },
     {
       title: "Next JS",

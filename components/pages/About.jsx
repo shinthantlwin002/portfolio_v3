@@ -48,7 +48,7 @@ const About = () => {
                 <p className="text-white text-sm md:text-md font-medium uppercase">
                   Experience
                 </p>
-                <p className="text-white text-xs md:text-sm">2 Years</p>
+                <p className="text-white text-xs md:text-sm">2+ Years</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -57,7 +57,7 @@ const About = () => {
                 <p className="text-white text-sm md:text-md font-medium uppercase">
                   Projects Completed
                 </p>
-                <p className="text-white text-xs md:text-sm">12 ++</p>
+                <p className="text-white text-xs md:text-sm">30 ++</p>
               </div>
             </div>
           </m.div>
@@ -69,12 +69,12 @@ const About = () => {
             className="text-xs md:text-sm font-light text-white mb-2 md:mb-4"
           >
             {" "}
-            I’m a Fullstack developer specializing in Next.js and React.js. I’m
-            a native Burmese speaker, fluent in English, and can speak a little
-            Chinese. I began my web development journey in 2022, and over the
-            past two years, I’ve had the opportunity to work on more than 12
-            projects, including admin dashboards, job seeker websites, invoicing
-            platforms, and several university assignment projects.
+            I'm a Fullstack developer specializing in Next.js, React.js, and PHP
+            Laravel. A native Burmese speaker, fluent in English, with basic
+            Chinese skills, I began my web development journey in 2022. Over the
+            past two years, I’ve worked on 30+ projects, including admin
+            dashboards, job seeker platforms, invoicing systems, and
+            entertainment websites.
           </m.p>
           <m.p
             initial={{ opacity: 0 }}
@@ -82,11 +82,12 @@ const About = () => {
             transition={{ delay: 0.4, duration: 1 }}
             className="text-xs md:text-sm font-light text-white mb-2 md:mb-4"
           >
-            I specialize in creating responsive, user-friendly websites using
-            React, Next.js, Tailwind CSS, and various Fullstack frameworks like
-            ShadCN, Material UI, and Framer Motion. I also have experience with
-            other Fullstack tools and libraries that help enhance the
-            functionality and design of my projects.
+            I specialize in building responsive, user-friendly web applications
+            using React, Next.js, Tailwind CSS, and Fullstack frameworks like
+            ShadCN, Material UI, and Framer Motion. On the backend, I leverage
+            PHP Laravel to create scalable and efficient server-side solutions.
+            Additionally, I work with various Fullstack tools and libraries to
+            enhance functionality and design.
           </m.p>
           <m.p
             initial={{ opacity: 0 }}
@@ -94,10 +95,10 @@ const About = () => {
             transition={{ delay: 0.4, duration: 1 }}
             className="text-xs md:text-sm font-light text-white mb-6 md:mb-8"
           >
-            I enjoy creating responsive layouts and optimizing performance, and
-            I'm always excited to tackle new Fullstack challenges.If you’re
-            looking for a Fullstack developer with experience in both UI/UX
-            design and web development, feel free to get in touch!
+            I’m passionate about crafting intuitive UIs, optimizing performance,
+            and solving complex Fullstack challenges. If you're looking for a
+            developer with experience in both frontend and backend development,
+            feel free to get in touch!
           </m.p>
 
           <m.button

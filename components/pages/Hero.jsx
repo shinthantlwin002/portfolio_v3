@@ -30,8 +30,11 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 1 }}
             >
-              I specialize in React and Next.js, creating dynamic, highly
-              performant web applications tailored to your business needs.
+              I specialize in React, Next.js, and PHP Laravel, crafting dynamic,
+              highly performant web applications tailored to your business
+              needs. From intuitive frontends to robust backend solutions, I
+              ensure seamless functionality, scalability, and a smooth user
+              experience.
             </m.p>
             <m.button
               className="bg-[#01B2F6] text-[#050922] px-3 py-2 rounded-md"
@@ -39,7 +42,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 1 }}
             >
-              <a href="/files/CV.pdf" download="CV.pdf">
+              <a href="/files/CV- shin thant lwin.pdf" download="CV.pdf">
                 Download CV
               </a>
             </m.button>
