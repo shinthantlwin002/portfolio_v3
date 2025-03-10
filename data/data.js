@@ -15,7 +15,7 @@ export const projects = [
       "Jplus is a specialized job search and recruitment platform that connects Myanmar job seekers with employment opportunities in Japan.",
     img: "images/jplus.png",
     linkTitle: "/JPlus.com",
-    link: "https://jplus-frontend.vercel.app/",
+    link: "https://jplus-Fullstack.vercel.app/",
   },
   {
     id: 3,
@@ -68,9 +68,9 @@ export const projects = [
 export const Services = [
   {
     id: 1,
-    title: "Frontend development",
+    title: "Fullstack development",
     description:
-      "I create mobile-friendly websites, use Git for version control, and connect frontend to backend via API integration",
+      "I create mobile-friendly websites, use Git for version control, and connect Fullstack to backend via API integration",
     img: "/icons/codepen.svg",
     serviceLists: [
       "Mobile responsive design",
