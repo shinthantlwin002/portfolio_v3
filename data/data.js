@@ -119,14 +119,6 @@ export const skills = {
       percentage: "90",
     },
     {
-      title: "PHP",
-      percentage: "80",
-    },
-    {
-      title: "Laravel",
-      percentage: "60",
-    },
-    {
       title: "Next JS",
       percentage: "90",
     },

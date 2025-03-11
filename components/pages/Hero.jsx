@@ -30,9 +30,8 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 1 }}
             >
-              I specialize in React, Next.js, and PHP Laravel, crafting dynamic,
-              highly performant web applications tailored to your business
-              needs. From intuitive frontends to robust backend solutions, I
+              I specialize in React and Next.js crafting dynamic, highly
+              performant web applications tailored to your business needs. I
               ensure seamless functionality, scalability, and a smooth user
               experience.
             </m.p>
