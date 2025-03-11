@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { motion as m } from "framer-motion";
 
 const Hero = () => {
-  const words = ["shin thant lwin", "Fullstack developer"];
+  const words = ["shin thant lwin", "frontend developer"];
   return (
     <div className="bg-[#050922] lg:h-screen">
       <Navbar />

@@ -35,7 +35,7 @@ const Contact = () => {
               transition={{ delay: 0.4, duration: 1 }}
               className="text-lg md:text-2xl font-semibold text-[#D9D9D9]"
             >
-              Fullstack Developer
+              Frontend Developer
             </m.h4>
           </div>
           <m.div
