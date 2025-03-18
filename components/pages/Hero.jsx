@@ -7,7 +7,7 @@ import { motion as m } from "framer-motion";
 const Hero = () => {
   const words = ["shin thant lwin", "frontend developer"];
   return (
-    <div className="bg-[#050922] lg:h-screen">
+    <div className="bg-[#050922] lg:h-screen overflow-y-hidden">
       <Navbar />
 
       <div className="container flex flex-col lg:flex-row h-full pt-32 lg:pt-10">
@@ -16,13 +16,13 @@ const Hero = () => {
           <div className="bg-[#D9D9D9] w-2 h-80 shadow-[0px_0px_20px_4px_rgba(200,221,235,1)] shadow-white rounded-full"></div>
           <div>
             <m.h1
-              className="text-white text-xl lg:text-4xl font-regular mb-8 uppercase"
+              className="text-white text-md md:text-xl lg:text-4xl font-regular mb-8 uppercase"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0, duration: 1 }}
             >
-              Transform Your Ideas into Stunning Digital Experiences <br /> With
-              <FlipWords words={words} className={cn("font-bold text-white")} />
+              Transform Your Ideas into Stunning Digital Experiences With <br />
+              <FlipWords words={words} className={cn("font-bold text-white px-0")} />
             </m.h1>
             <m.p
               className="text-[#D9D9D9] text-sm lg:text-base mb-10"
@@ -61,7 +61,7 @@ const Hero = () => {
             alt="ellipse"
             width="400"
             height="400"
-            className="absolute top-[28%] right-0 md:right-40 lg:right-10"
+            className="absolute top-[20%] md:top-[28%] right-0 md:right-40 lg:right-10"
           />
           <Image
             src="/images/shin.png"

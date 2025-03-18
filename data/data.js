@@ -17,18 +17,9 @@ export const projects = [
     linkTitle: "/JPlus.com",
     link: "https://jplus-frontend.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Premio Plus",
-    description:
-      "Premio Plus is a basic movie streaming site that offers a selection of films for users looking for simple, straightforward entertainment.",
-    img: "images/premio.png",
-    linkTitle: "/Premio-plus.com",
-    link: "https://premio-plus.vercel.app/",
-  },
 
   {
-    id: 4,
+    id: 3,
     title: "Hotale",
     description:
       "Hotale provides a comprehensive hotel booking service that allows you to find and reserve accommodations effortlessly.",
@@ -37,7 +28,7 @@ export const projects = [
     link: "https://hotale.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     title: "JPlus Dashboard",
     description:
       "JPlus Dashboard is a modern admin panel built with Next.js, Tailwind CSS, and ShadCN. It features real-time analytics, user management and interactive data visualization",
@@ -45,7 +36,15 @@ export const projects = [
     linkTitle: "/JPlus_dashboard.com",
     link: "https://dashboard-v1-two.vercel.app/",
   },
-
+  {
+    id: 5,
+    title: "Premio Plus",
+    description:
+      "Premio Plus is a basic movie streaming site that offers a selection of films for users looking for simple, straightforward entertainment.",
+    img: "images/premio.png",
+    linkTitle: "/Premio-plus.com",
+    link: "https://premio-plus.vercel.app/",
+  },
   {
     id: 6,
     title: "Azure Luxe",

@@ -3,7 +3,8 @@ import {motion as m} from 'framer-motion';
 
 const Services = () => {
   return (
-    <div className='bg-[#050922] container mx-auto py-20' id="services">
+    <div className='bg-[#050922]'>
+       <div className='container mx-auto py-20' id="services">
       <div className='flex flex-col items-center'>
         <m.h1 className='text-3xl text-center mb-2 text-[#FCFFFF] font-bold uppercase' initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0, duration:1}}>
           Services
@@ -17,6 +18,8 @@ const Services = () => {
         <ServiceCard />
       </m.div>
     </div>
+    </div>
+   
   );
 };
 

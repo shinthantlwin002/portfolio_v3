@@ -4,7 +4,7 @@ import {motion as m} from 'framer-motion';
 
 const Projects = () => {
   return (
-    <div className='bg-[#121B42] py-20' id="projects">
+    <div className='bg-[#121B42] max-md:px-4 py-20' id="projects">
       <div className='flex flex-col items-center'>
         <m.h1 className='text-3xl text-center mb-2 text-[#FCFFFF] font-bold uppercase' initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0, duration:1}}>
           My Projects

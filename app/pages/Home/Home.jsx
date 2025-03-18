@@ -6,7 +6,7 @@ import Certifications from '@/components/pages/Certifications2';
 import Services from '@/components/pages/Services';
 import ProjectGallery from '@/components/pages/ProjectGallery';
 import Skills from '@/components/pages/Skills';
-import Experiences from '@/components/pages/Experiences';
+import Timeline from '@/components/pages/Timeline';
 import Contact from '@/components/pages/Contact';
 import About from '@/components/pages/About';
 
@@ -18,7 +18,7 @@ const Home = () => {
       <Services />
       <Skills />
       <ProjectGallery />
-      <Experiences />
+      <Timeline />
       <Certifications />
       <Contact />
       <About />

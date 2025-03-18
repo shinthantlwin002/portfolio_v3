@@ -1,122 +1,163 @@
-'use client';
-
-import React from 'react';
-import { Timeline } from '@/components/ui/timeline';
+"use client";
+import Image from "next/image";
+import { motion as m } from "framer-motion";
 
 const Experiences = () => {
-  const data = [
-    {
-      title: '2024',
-      content: (
-        <div>
-          <p className='text-[#B4B4B4] text-xs md:text-sm font-normal mb-8'>
-            At Circles X, I am a frontend developer specializing in React and
-            Next.js. I collaborate with designers and backend developers to
-            create scalable, high-performance features that meet top standards
-            of functionality and usability.
-          </p>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 w-full'>
-            <img
-              src='/images/circleX-1.png'
-              alt='template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/circleX-2.png'
-              alt='template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/circleX-3.png'
-              alt='template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/circleX-4.png'
-              alt='template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: 'Mid 2023',
-      content: (
-        <div>
-          <p className='text-[#B4B4B4] text-xs md:text-sm font-normal mb-8'>
-            After completing the Special Web Design course, I participated in
-            workshop projects at MMSIT, where I worked with a team to build
-            practical web applications.
-          </p>
-          <p className='text-[#B4B4B4] text-xs md:text-sm font-normal mb-8'>
-            These projects gave me hands-on experience in React, focusing on
-            creating clean designs and improving performance.
-          </p>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-            <img
-              src='/images/mmsit-1.png'
-              alt='hero template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/mmsit-2.png'
-              alt='feature template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/mmsit-3.png'
-              alt='bento template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/mmsit-4.png'
-              alt='cards template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: 'Early 2023',
-      content: (
-        <div>
-          <p className='text-[#B4B4B4] text-xs md:text-sm font-normal mb-4'>
-            I teamed up with a frontend developer and UI/UX designer on a{' '}
-            <span className='font-semibold'>Movie Project</span>, where I
-            developed the frontend using React.
-          </p>
-
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-            <img
-              src='/images/premio.png'
-              alt='hero template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/premio-2.png'
-              alt='feature template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/premio-3.png'
-              alt='bento template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-            <img
-              src='/images/premio-4.png'
-              alt='cards template'
-              className='rounded-lg object-cover h-40 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'
-            />
-          </div>
-        </div>
-      ),
-    },
-  ];
   return (
-    <div className='w-full' id="experiences">
-      <Timeline data={data} />
+    <div className="bg-[#050922] py-10 md:py-20 px-4 md:px-10 lg:px-20">
+      <h1 className="uppercase text-2xl md:text-[60px] font-medium md:font-semibold text-center mb-10 md:mb-20 text-[#FCFFFF]">
+        Experiences
+      </h1>
+
+      <div>
+        <m.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0, duration: 1 }}
+          className="flex flex-col-reverse md:flex-row w-full mb-8 md:mb-4"
+        >
+          <div className="w-full">
+            <h1 className="text-2xl font-semibold mb-1 text-start md:text-end text-[#FCFFFF]">
+              Frontend Web Development (SWD)
+            </h1>
+            <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
+              MMS One Stop IT Solutions(MMSIT)
+            </h1>
+            <p className="text-start md:text-end text-[#D9D9D9]">
+              MMSIT’s Fronted Development certification program offers a
+              comprehensive curriculum covering HTML, CSS, JavaScript, and
+              react, ensuring students are well prepared for employment in
+              fronted development roles. with a focus on practical skills and
+              real-world projects, students acquire the expertise needed to
+              succeed in the industry upon completion of the program{" "}
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-2 items-center w-[10%] max-md:hidden">
+            <Image
+              src="/icons/check-circle-white.svg"
+              alt="check-circle"
+              width={30}
+              height={30}
+            />
+
+            <hr className="h-[180px] border border-[#D9D9D9]" />
+          </div>
+          <div className="w-full">
+            <div className="flex items-center">
+              <Image
+                src="/icons/arrow-fill-white.svg"
+                alt="check-circle"
+                width={10}
+                height={10}
+                className="rotate-180 max-md:hidden"
+              />
+              <div className="bg-[#D9D9D9] hover:bg-white text-[#050922] text-sm font-semibold w-fit px-2 py-1 mb-2 md:mb-0 rounded-md">
+                <a href="https://1drv.ms/i/c/e1567b3d30f0650e/EfC3kDRJQMhGnK1GGrqQnaUBHROi1ARa8koePDgGw30w5A?e=BN7qjK">
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </m.div>
+
+        <m.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 1 }}
+          className="flex flex-col md:flex-row gap-2 md:gap-0 w-full mb-8 md:mb-4"
+        >
+          <div className="w-full">
+            <div className="flex items-center justify-start md:justify-end">
+              <div className="bg-[#D9D9D9] hover:bg-white text-[#050922] text-sm font-semibold w-fit px-2 py-1 mb-2 md:mb-0 rounded-md">
+                <a href="https://1drv.ms/b/c/e1567b3d30f0650e/EemQk1hRQ35Mo-WsU0nSeWkBE-NecWbtu-TqCWrsaA4_Yw?e=YfKgbw">
+                  View Certificate
+                </a>
+              </div>
+              <Image
+                src="/icons/arrow-fill-white.svg"
+                alt="check-circle"
+                width={10}
+                height={10}
+                className="max-md:hidden"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col gap-2 items-center w-[10%] max-md:hidden">
+            <Image
+              src="/icons/check-circle-white.svg"
+              alt="check circle white"
+              width={30}
+              height={30}
+            />
+            <hr className="h-[180px] border border-[#D9D9D9]" />
+          </div>
+          <div className="w-full">
+            <h1 className="text-2xl font-semibold mb-1 text-start text-[#FCFFFF]">
+              React JS
+            </h1>
+            <h1 className="text-lg mb-4 text-start text-[#D9D9D9]">Compass</h1>
+            <p className="text-start text-[#D9D9D9]">
+              Compass's Advanced ReactJS course delves deep into advanced
+              concepts like state management, component patterns, and
+              performance optimization. Students emerge proficient in leveraging
+              React for complex projects, ready to excel in frontend development
+              roles.
+            </p>
+          </div>
+        </m.div>
+
+        <m.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 1 }}
+          className="flex flex-col-reverse md:flex-row gap-2 md:gap-0 w-full mb-8 md:mb-4"
+        >
+          <div className="w-full">
+            <h1 className="text-2xl font-semibold mb-1 text-start md:text-end text-[#FCFFFF]">
+              UI/UX Design
+            </h1>
+            <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
+              Binary Digital Toolbox
+            </h1>
+            <p className="text-start md:text-end text-[#D9D9D9]">
+              Completed a UI/UX Design Certification at Binary Digital Toolbox,
+              where I developed a strong foundation in designing intuitive and
+              user-centered interfaces. The program emphasized practical,
+              hands-on experience, enabling me to master tools like Figma and
+              Adobe XD while refining my skills in wireframing, prototyping, and
+              user research. This certification enhanced my ability to create
+              seamless user experiences and deliver visually appealing,
+              functional designs that meet client needs effectively.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 items-center w-[10%] max-md:hidden">
+            <Image
+              src="/icons/check-circle-white.svg"
+              alt="check-circle"
+              width={30}
+              height={30}
+            />
+            <hr className="h-[180px] border border-[#D9D9D9]" />
+          </div>
+          <div className="w-full">
+            <div className="flex items-center">
+              <Image
+                src="/icons/arrow-fill-white.svg"
+                alt="arrow fill"
+                width={10}
+                height={10}
+                className="rotate-180 max-md:hidden"
+              />
+              <div className="bg-[#D9D9D9] hover:bg-white text-[#050922] text-sm font-semibold w-fit px-2 py-1 mb-2 md:mb-0 rounded-md -ml-[1px]">
+                <a href="https://1drv.ms/b/c/e1567b3d30f0650e/EVptJcGgqwNKs05KeqE_VG0B3zp-CAwe6UyE52YKAaKTvQ?e=GqGSSh">
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </m.div>
+      </div>
     </div>
   );
 };
