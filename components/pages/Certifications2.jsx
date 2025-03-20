@@ -157,6 +157,110 @@ const Certifications = () => {
             </div>
           </div>
         </m.div>
+
+        <m.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 1 }}
+          className="flex flex-col md:flex-row gap-2 md:gap-0 w-full mb-8 md:mb-4"
+        >
+          <div className="w-full">
+            <div className="flex items-center justify-start md:justify-end">
+              <div className="bg-[#D9D9D9] hover:bg-white text-[#050922] text-sm font-semibold w-fit px-2 py-1 mb-2 md:mb-0 rounded-md">
+                <a href="https://1drv.ms/i/c/e1567b3d30f0650e/ESJL3YaAIEpGk_rrsIoFHZoBjRrSwKEX80cASWF2cXo7jg?e=1STSiB">
+                  View Certificate
+                </a>
+              </div>
+              <Image
+                src="/icons/arrow-fill-white.svg"
+                alt="check-circle"
+                width={10}
+                height={10}
+                className="max-md:hidden"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col gap-2 items-center w-[10%] max-md:hidden">
+            <Image
+              src="/icons/check-circle-white.svg"
+              alt="check circle white"
+              width={30}
+              height={30}
+            />
+            <hr className="h-[180px] border border-[#D9D9D9]" />
+          </div>
+          <div className="w-full">
+            <h1 className="text-2xl font-semibold mb-1 text-start text-[#FCFFFF]">
+              Chinese HSK Level 2
+            </h1>
+            <h1 className="text-lg mb-4 text-start text-[#D9D9D9]">
+              Learn Chinese With Merry
+            </h1>
+            <p className="text-start text-[#D9D9D9]">
+              I successfully achieved HSK 2, demonstrating the ability to
+              communicate in basic Chinese for everyday situations. Gained
+              proficiency in using approximately 300 common words and essential
+              sentence structures to engage in simple conversations about daily
+              activities, shopping, transportation, and personal interests.
+              Developed skills in listening comprehension, reading short
+              passages, and forming grammatically correct sentences.
+              Strengthened pronunciation and fluency through pinyin practice
+              while improving character recognition.
+            </p>
+          </div>
+        </m.div>
+
+        <m.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 1 }}
+          className="flex flex-col-reverse md:flex-row gap-2 md:gap-0 w-full mb-8 md:mb-4"
+        >
+          <div className="w-full">
+            <h1 className="text-2xl font-semibold mb-1 text-start md:text-end text-[#FCFFFF]">
+              Chinese Basic
+            </h1>
+            <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
+              Learn Chinese With Merry
+            </h1>
+            <p className="text-start md:text-end text-[#D9D9D9]">
+              I completed a foundational Chinese language course, covering
+              essential components such as stroke order, pinyin, basic grammar,
+              and common vocabulary. Learned to recognize and write fundamental
+              Chinese characters, improving reading and pronunciation skills. I
+              gained proficiency in recognizing and writing fundamental Chinese
+              characters while understanding their composition and meaning.
+              Developed listening and speaking skills through practice
+              exercises, improving pronunciation accuracy and conversational
+              ability.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 items-center w-[10%] max-md:hidden">
+            <Image
+              src="/icons/check-circle-white.svg"
+              alt="check-circle"
+              width={30}
+              height={30}
+            />
+            <hr className="h-[180px] border border-[#D9D9D9]" />
+          </div>
+          <div className="w-full">
+            <div className="flex items-center">
+              <Image
+                src="/icons/arrow-fill-white.svg"
+                alt="arrow fill"
+                width={10}
+                height={10}
+                className="rotate-180 max-md:hidden"
+              />
+              <div className="bg-[#D9D9D9] hover:bg-white text-[#050922] text-sm font-semibold w-fit px-2 py-1 mb-2 md:mb-0 rounded-md -ml-[1px]">
+                <a href="https://1drv.ms/i/c/e1567b3d30f0650e/ESJL3YaAIEpGk_rrsIoFHZoBjRrSwKEX80cASWF2cXo7jg?e=aUaNtD">
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </m.div>
       </div>
     </div>
   );

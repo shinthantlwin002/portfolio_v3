@@ -9,6 +9,7 @@ import Skills from '@/components/pages/Skills';
 import Timeline from '@/components/pages/Timeline';
 import Contact from '@/components/pages/Contact';
 import About from '@/components/pages/About';
+import Experiences from '@/components/pages/Experiences';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Skills />
       <ProjectGallery />
       <Timeline />
+      <Experiences />
       <Certifications />
       <Contact />
       <About />

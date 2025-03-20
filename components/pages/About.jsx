@@ -39,7 +39,7 @@ const About = () => {
                 <p className="text-white text-sm md:text-md font-medium uppercase">
                   Age
                 </p>
-                <p className="text-white text-xs md:text-sm">20 Years</p>
+                <p className="text-white text-xs md:text-sm">23 Years</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -57,7 +57,7 @@ const About = () => {
                 <p className="text-white text-sm md:text-md font-medium uppercase">
                   Projects Completed
                 </p>
-                <p className="text-white text-xs md:text-sm">24 ++</p>
+                <p className="text-white text-xs md:text-sm">17 ++</p>
               </div>
             </div>
           </m.div>
@@ -70,10 +70,8 @@ const About = () => {
           >
             {" "}
             I’m a frontend developer specializing in Next.js and React.js. I’m a
-            native Burmese speaker, fluent in English, and can speak a little
-            Chinese. I began my web development journey in 2022, and over the
-            past two years, I’ve had the opportunity to work on more than 12
-            projects, including admin dashboards, job seeker websites, invoicing
+            native Burmese speaker, fluent in English, and can speak Chinese conventionally. I began my web development journey in 2022, and over the
+            past two years, I’ve had the opportunity to work on several projects, including admin dashboards, job seeker websites, invoicing
             platforms, and several university assignment projects.
           </m.p>
           <m.p
