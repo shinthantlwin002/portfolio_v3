@@ -16,14 +16,15 @@ const Home = () => {
     <div>
       <Hero />
       <Projects />
-      <Services />
+      <About />
       <Skills />
-      <ProjectGallery />
-      <Timeline />
       <Experiences />
       <Certifications />
+      <Services />
+      <ProjectGallery />
+      <Timeline />
+      
       <Contact />
-      <About />
     </div>
   );
 };

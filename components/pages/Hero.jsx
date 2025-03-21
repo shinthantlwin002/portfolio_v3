@@ -12,7 +12,7 @@ const Hero = () => {
 
       <div className="container flex flex-col lg:flex-row h-full pt-32 lg:pt-10">
         {/* left content */}
-        <div className="flex items-center gap-6 lg:gap-10 w-full lg:w-[60%]">
+        <div className="flex items-center gap-6 lg:gap-10 w-full lg:w-[60%] 2xl:w-[40%]">
           <div className="bg-[#D9D9D9] w-2 h-80 shadow-[0px_0px_20px_4px_rgba(200,221,235,1)] shadow-white rounded-full"></div>
           <div>
             <m.h1
@@ -22,7 +22,10 @@ const Hero = () => {
               transition={{ delay: 0, duration: 1 }}
             >
               Transform Your Ideas into Stunning Digital Experiences With <br />
-              <FlipWords words={words} className={cn("font-bold text-white px-0")} />
+              <FlipWords
+                words={words}
+                className={cn("font-bold text-white px-0")}
+              />
             </m.h1>
             <m.p
               className="text-[#D9D9D9] text-sm lg:text-base mb-10"
@@ -61,7 +64,7 @@ const Hero = () => {
             alt="ellipse"
             width="400"
             height="400"
-            className="absolute top-[20%] md:top-[28%] right-0 md:right-40 lg:right-10"
+            className="absolute top-[20%] md:top-[28%] 2xl:top-[50%] right-0 md:right-40 lg:right-10"
           />
           <Image
             src="/images/shin.png"

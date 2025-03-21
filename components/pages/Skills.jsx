@@ -19,10 +19,11 @@ const Skills = () => {
     setActiveTab(3);
   };
   return (
-    <div className='py-20 container mx-auto bg-[#121B42]'>
-      {/* header */}
+    <div className='py-20 bg-[#121B42]'>
+      <div className='container mx-auto'>
+        {/* header */}
       <div className='flex flex-col items-center'>
-        <m.h1 className='text-3xl text-center mb-2 text-[#FCFFFF] font-bold uppercase' initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0, duration:1}}>
+        <m.h1 className='text-2xl md:text-3xl text-center mb-2 text-[#FCFFFF] font-bold uppercase' initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0, duration:1}}>
           Skills
         </m.h1>
         <m.p className='text-md text-center font-medium text-[#B4B4B4] max-w-[800px]' initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.3, duration:1}}>
@@ -94,6 +95,8 @@ const Skills = () => {
             ))}
       </m.div>
       {/* skills end */}
+      </div>
+      
     </div>
   );
 };

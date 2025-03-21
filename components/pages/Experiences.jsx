@@ -5,7 +5,7 @@ import { motion as m } from "framer-motion";
 const Experiences = () => {
   return (
     <div className="bg-[#050922] py-10 md:py-20 px-4 md:px-10 lg:px-20">
-      <h1 className="uppercase text-2xl md:text-[60px] font-medium md:font-semibold text-center mb-10 md:mb-20 text-[#FCFFFF]">
+      <h1 className="uppercase text-2xl md:text-3xl font-medium md:font-semibold text-center mb-10 md:mb-20 text-[#FCFFFF]">
         Experiences
       </h1>
 
@@ -23,7 +23,7 @@ const Experiences = () => {
             <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
               Circles X
             </h1>
-            <p className="text-start md:text-end text-[#D9D9D9]">
+            <p className="text-start md:text-end text-[#D9D9D9] text-sm">
               As a frontend developer at Circles X, I build user friendly
               websites such as JPlus, PyaySar, CarSpa and several dashboards
               using React and Next JS. I worked closely with designers and
@@ -94,7 +94,7 @@ const Experiences = () => {
             <h1 className="text-lg mb-4 text-start text-[#D9D9D9]">
               MMS One Stop Solutions SWD Course Workshop
             </h1>
-            <p className="text-start text-[#D9D9D9]">
+            <p className="text-start text-[#D9D9D9] text-sm">
               After completing the Frontend Web Development or SWD course, I
               teamed up with 3 Frontend Developers to work on total 4 projects,
               Hotale, Hotale Dashboard, Contact Dashboard and Team Portfolio
@@ -118,7 +118,7 @@ const Experiences = () => {
             <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
               Premio Plus Movie Streaming Platform
             </h1>
-            <p className="text-start md:text-end text-[#D9D9D9]">
+            <p className="text-start md:text-end text-[#D9D9D9] text-sm">
               In this collaborative endeavor, I had the privilege of working
               alongside with a Frontend Developer and a UI/UX designer. I was
               responsible for building interactive UI with Framer Motion
@@ -188,7 +188,7 @@ const Experiences = () => {
             <h1 className="text-lg mb-4 text-start text-[#D9D9D9]">
               Study Online Myanmar (SOM)
             </h1>
-            <p className="text-start text-[#D9D9D9]">
+            <p className="text-start text-[#D9D9D9] text-sm">
               As an UI/UX instructor at SOM, I shared my expertise with eager
               learners, guide them in understanding design principles and
               user-centered thinking. I mentored students through 3 design

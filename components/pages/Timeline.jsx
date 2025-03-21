@@ -115,7 +115,7 @@ const Timeline = () => {
     },
   ];
   return (
-    <div className='w-full'>
+    <div className='w-full max-md:px-4'>
       <TimelineComponent data={data} />
     </div>
   );

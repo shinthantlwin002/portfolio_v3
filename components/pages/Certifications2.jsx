@@ -5,7 +5,7 @@ import { motion as m } from "framer-motion";
 const Certifications = () => {
   return (
     <div className="bg-[#050922] py-10 md:py-20 px-4 md:px-10 lg:px-20">
-      <h1 className="uppercase text-2xl md:text-[60px] font-medium md:font-semibold text-center mb-10 md:mb-20 text-[#FCFFFF]">
+      <h1 className="uppercase text-2xl md:text-3xl font-medium md:font-semibold text-center mb-10 md:mb-20 text-[#FCFFFF]">
         Certifications
       </h1>
 
@@ -23,7 +23,7 @@ const Certifications = () => {
             <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
               MMS One Stop IT Solutions(MMSIT)
             </h1>
-            <p className="text-start md:text-end text-[#D9D9D9]">
+            <p className="text-start md:text-end text-[#D9D9D9] text-sm">
               MMSIT’s Fronted Development certification program offers a
               comprehensive curriculum covering HTML, CSS, JavaScript, and
               react, ensuring students are well prepared for employment in
@@ -97,7 +97,7 @@ const Certifications = () => {
               React JS
             </h1>
             <h1 className="text-lg mb-4 text-start text-[#D9D9D9]">Compass</h1>
-            <p className="text-start text-[#D9D9D9]">
+            <p className="text-start text-[#D9D9D9] text-sm">
               Compass's Advanced ReactJS course delves deep into advanced
               concepts like state management, component patterns, and
               performance optimization. Students emerge proficient in leveraging
@@ -120,7 +120,7 @@ const Certifications = () => {
             <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
               Binary Digital Toolbox
             </h1>
-            <p className="text-start md:text-end text-[#D9D9D9]">
+            <p className="text-start md:text-end text-[#D9D9D9] text-sm">
               Completed a UI/UX Design Certification at Binary Digital Toolbox,
               where I developed a strong foundation in designing intuitive and
               user-centered interfaces. The program emphasized practical,
@@ -196,7 +196,7 @@ const Certifications = () => {
             <h1 className="text-lg mb-4 text-start text-[#D9D9D9]">
               Learn Chinese With Merry
             </h1>
-            <p className="text-start text-[#D9D9D9]">
+            <p className="text-start text-[#D9D9D9] text-sm">
               I successfully achieved HSK 2, demonstrating the ability to
               communicate in basic Chinese for everyday situations. Gained
               proficiency in using approximately 300 common words and essential
@@ -223,7 +223,7 @@ const Certifications = () => {
             <h1 className="text-lg mb-4 text-start md:text-end text-[#D9D9D9]">
               Learn Chinese With Merry
             </h1>
-            <p className="text-start md:text-end text-[#D9D9D9]">
+            <p className="text-start md:text-end text-[#D9D9D9] text-sm">
               I completed a foundational Chinese language course, covering
               essential components such as stroke order, pinyin, basic grammar,
               and common vocabulary. Learned to recognize and write fundamental

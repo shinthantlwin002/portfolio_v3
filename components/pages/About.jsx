@@ -1,10 +1,11 @@
 import { User2, CalendarDays, CircleCheckBig } from "lucide-react";
 import { motion as m } from "framer-motion";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div className="bg-[#050922]">
-      <div className="flex flex-col-reverse md:flex-row items-center gap-20 container mx-auto py-20">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-20 container mx-auto py-24 md:h-screen">
         {/* left content */}
         <div>
           <m.div
@@ -18,14 +19,7 @@ const About = () => {
               About me
             </h1>
           </m.div>
-          <m.h1
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.1, duration: 1 }}
-            className="text-white text-sm md:text-base lg:text-xl font-medium mb-8 uppercase"
-          >
-            Hello, I am Shin Thant lwin
-          </m.h1>
+          
 
           <m.div
             initial={{ opacity: 0 }}
@@ -69,9 +63,11 @@ const About = () => {
             className="text-xs md:text-sm font-light text-white mb-2 md:mb-4"
           >
             {" "}
-            I’m a frontend developer specializing in Next.js and React.js. I’m a
-            native Burmese speaker, fluent in English, and can speak Chinese conventionally. I began my web development journey in 2022, and over the
-            past two years, I’ve had the opportunity to work on several projects, including admin dashboards, job seeker websites, invoicing
+            Hello, I am Shin Thant Lwin, a frontend developer specializing in Next.js and React.js. I’m a
+            native Burmese speaker, fluent in English, and can speak Chinese
+            conventionally. I began my web development journey in 2022, and over
+            the past two years, I’ve had the opportunity to work on several
+            projects, including admin dashboards, job seeker websites, invoicing
             platforms, and several university assignment projects.
           </m.p>
           <m.p
@@ -110,7 +106,7 @@ const About = () => {
         {/* left content end */}
 
         {/* right content */}
-        <m.img
+        {/* <m.img
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
           transition={{
@@ -121,7 +117,25 @@ const About = () => {
           }}
           src="images/shin-2.png"
           className="w-[200px] h-[200px] md:w-[350px] md:h-[350px] object-cover"
-        />
+        /> */}
+        <m.div
+          initial={{ y: 10 }}
+          animate={{ y: [10, 0, 10] }} // Cycling between two values
+          transition={{
+            duration: 2, // Adjust speed of bounce
+            repeat: Infinity, // Infinite bounce
+            repeatType: "reverse", // Reverses the motion smoothly
+            ease: "easeInOut", // Makes it smoother
+          }}
+        >
+          <Image
+            src="/icons/orbiting-circle.svg"
+            alt="check-circle"
+            width={1000}
+            height={1000}
+          />
+        </m.div>
+
         {/* right content end */}
       </div>
     </div>

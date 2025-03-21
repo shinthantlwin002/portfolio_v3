@@ -29,7 +29,7 @@ export const Timeline = ({
       className="w-full bg-[#121B42] font-sans md:px-10"
       ref={containerRef}>
       <div className="max-w-sm md:max-w-7xl mx-auto py-20">
-        <h2 className="text-lg md:text-4xl mb-4 text-[#FCFFFF] uppercase font-semibold max-w-4xl text-center md:text-start">
+        <h2 className="text-2xl md:text-4xl mb-4 text-[#FCFFFF] uppercase font-semibold max-w-4xl text-center md:text-start">
           Changelog from my journey
         </h2>
         <p
